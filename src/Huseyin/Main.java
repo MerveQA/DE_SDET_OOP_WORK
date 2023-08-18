@@ -2,7 +2,11 @@ package Huseyin;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("hello");
+
+
+        RentApartments obje = new RentApartments("Hüseyin", 2, true);
+
+        System.out.println(obje.getName() + " kullanıcısının kirası " + (obje.kiraHesapla()+ obje.balkonVarmi()));
 
 
     }
