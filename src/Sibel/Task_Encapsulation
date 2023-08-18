@@ -1,0 +1,32 @@
+   <<<<< TASK >>>>>
+    1) İki adet class oluşturun.
+    Biri Main diğeri ise rentApartments
+
+    2) rentApartments'ın içinde aşagıdaki variablara Encapsulation uygulayın
+    Tüm verilerimizi okuma ve yazma yetkisi ile oluşturalım
+    -String name
+    -int roomCount
+    -boolean balconyOrNo
+
+
+    3) 4 farklı Apartment(apartman dairesi) vardır. 0, 1, 2, 3 rooms(odalı)
+    -----------------------------------------------------------------
+    ** Bir method oluşturun;
+    Eğer room sayısı 0 ise,
+    rent(kira) 1400
+    Eğer oda sayısı 1 ise,
+    rent  1700
+    Eğer oda sayısı 2 ise,
+    rent 2200
+    Eğer oda sayısı 3 ise,
+    rent 2700
+    rent'i return'leyin.
+    ----------------------------------------------------------------
+    ** Bir method oluşturun.
+    Eğer balconyOrNo  true ise,
+    rent'e 200 dollar ekleyin.
+
+    -Main class'ın içinde;
+    "userName" rent is "amountOfRent"
+    (Kullanıcının kirası 2000)
+    output unu oluşturun
