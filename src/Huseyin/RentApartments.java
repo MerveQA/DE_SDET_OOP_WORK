@@ -4,6 +4,7 @@ public class RentApartments {
     private String name;
     private int roomCount;
     private boolean balconyOrNo;
+    private boolean esyaVarMi;
     private int rent;
 
 
@@ -31,8 +32,23 @@ public class RentApartments {
         this.balconyOrNo = balconyOrNo;
     }
 
+    public boolean isEsyaVarMi() {
+        return esyaVarMi;
+    }
+    public void setEsyaVarMi(boolean esyaVarMi) {
+        this.esyaVarMi = esyaVarMi;
+    }
+
+    public int getRent() {
+        return rent;
+    }
+
+    public void setRent(int rent) {
+        this.rent = rent;
+    }
+
     public int kiraHesapla () {
-        //int rent=0;
+
         if (this.roomCount == 0)      this.rent = 1400;
         else if (this.roomCount == 1) this.rent = 1700;
         else if (this.roomCount == 2) this.rent = 2200;
@@ -40,19 +56,31 @@ public class RentApartments {
 
         return rent;
     }
-    public int balkonVarmi() {
-        //int rent = 0;
+    public int  balkonVarmi() {
+
         if (this.balconyOrNo) {
             this.rent = 200;
 
-        }
+        }else this.rent = 0;
         return rent;
+
+
+    }
+    public int esyaliMi () {
+
+        if (this.esyaVarMi) {
+            this.rent = 200;
+
+        }else this.rent = 0;
+        return rent;
+
 
     }
 
-    public RentApartments(String name, int roomCount, boolean balconyOrNo) {
+    public RentApartments(String name, int roomCount, boolean balconyOrNo, boolean esyaVarMi) {
         this.name = name;
         this.roomCount = roomCount;
         this.balconyOrNo = balconyOrNo;
+        this.esyaVarMi = esyaVarMi;
     }
 }
