@@ -1,0 +1,38 @@
+1) Bir personel class açalım
+instance variable olarak
+String statu
+String imtiyaz
+int yemekKrt  (gunde 1)
+olsun ve bu instance variablara ilk değerlerini atayalım
+( personelim genel haklarını göstersin)
+
+method olarak
+mesai() --> personel 5 gun, gunde 8 saat çalışır
+maasHesapla() --> saatx40TL maaş alır
+
+2) Bir işçi class acalım ve personel class a extend edelim
+instance variable olarak
+String statu
+String imtiyaz
+int yemekKrt (gunde 2)
+olsun ve bu instance variablara ilk değerlerini atayalım
+(işçinin genel haklarını göstersin)
+
+method olarak
+mesai() --> isciler haftada 40 saat calisir.
+maasHesapla() --> saatx60TL maaş alır
+
+3) Bir usta başı class açalım ve işçi classına extend edelim
+instance variable olarak
+String statu
+String imtiyaz
+int yemekKrt (gunde 3)
+olsun ve bu instance variablara ilk değerlerini atayalım
+(usta başının genel haklarını göstersin)
+
+method olarak
+mesai() --> Acil durumlarda ek ücret almadan çalışır
+maasHesapla() --> saatx100TL maaş alır
+
+OUTPUT --> bir usta başı objesi uretelim ve tum özellikleri yazdıralım
+
