@@ -1,0 +1,39 @@
+TASK
+1) Insan isminde bir abstract class olusturlım
+bu classta 2 variable kullanalım ve bu variabları private yapalım
+String isim
+String soysim
+
+2) Constractor (parametreli) oluşturalım
+
+3) Methodlar
+a.calis()         --> abstract method
+b.Bilgilendirme() --> concrete method
+c.isimDegistir()  --> concrete method
+
+4) Bir Calisan class oluturalım
+Bu classda bir variable kullanalım
+int calisanId
+
+5) Constractor (parametreli) oluşturalım
+
+6) Override edilmesi zorunlu olan methodları override edelim
+zorunlu olmayanları overrde etmeyelim
+Override edeceğimiz methodda :
+--> eger Id = 0 ise
+"Çalışan değil"
+"Id = 0"
+--> eğer Id sıfırdan farklı ise :
+"Çalışanımız
+"Id = Id "
+şartını ekleyelim
+
+7) Bir runner class da
+öğrenci çalısan
+sekreter çalışan
+danışman çalışan
+olusturup methodlara ulaşmaya çalışalım
+
+7)
+
+
