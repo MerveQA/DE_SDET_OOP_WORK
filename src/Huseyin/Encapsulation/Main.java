@@ -1,4 +1,4 @@
-package Huseyin;
+package Huseyin.Encapsulation;
 
 public class Main {
     public static void main(String[] args) {

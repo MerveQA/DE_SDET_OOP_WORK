@@ -1,4 +1,4 @@
-package Huseyin;
+package Huseyin.Encapsulation;
 
 public class RentApartments {
     private String name;
